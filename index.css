@@ -84,6 +84,7 @@ button:focus-visible {
     left:0;
     z-index:0;
     padding: 0;
+    padding-bottom: 60px;
 
 }
 .site-project-text {
