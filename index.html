@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Web Designer-Umavenkat </title>
+    <link href="./index.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+       $(function(){
+    $('#header').load('./header.html');
+});
+
+$(function(){
+    $('#footer').load('./footer.html');
+}); 
+    </script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+    <div id="header"></div>
+    <main>
+        <section class="site-main">
+            <div class="container">  
+            <div class="site-main-text">
+            <h1>Freelance Web Designer</h1>
+            <p>I design and develope the websites with better user experience, which lead to increase your business</p>
+            <a href="./contact.html" ><button>contact me</button></a>
+           </div>
+           </div>
+        </section>  
+
+        <section class="site-about">
+            <div class="container" >
+             <div class="section-container">   
+            <div>
+                <img class="site-about-image" src="../source/DSC_0131.png" alt="personal image" height="400px" width="300px"/>
+            </div>
+            <div class="site-about-text">
+                <h2>About Me</h2>
+                <p>My self Umamaheswari, I'm a freelance web designer with 2 years experience in wordpress and 1 year of experience in HTML5, CSS3, JS, React and Bootstrap.</p>
+                <a href="./about.html"><button>More About Me</button></a>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="site-project-text">
+                <h2>My Projects</h2>
+                <p>UI/UX // Wordpress //Bootstrap // React //Development</p>
+           <div class="container">
+           <div class="section-container">    
+            <div>
+                <img src="../source/ukmidland.png" alt="ukmidland" height="250px" /><br>
+            </div>
+            <div>   
+                <img src="../source/itallank.png" alt="italank" height="250px" /><br>
+            </div>
+            </div>
+           </div>
+           <a href="./project.html"><button>View Project</button></a>
+          </div>
+        </section>
+        <div id="footer"></div>
+        <script src="./index.js"></script>
+    </body>
+   </html>
