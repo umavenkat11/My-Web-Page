@@ -6,9 +6,9 @@ navToggle.addEventListener("click", () => {
 });
 
 $(function(){
-    $('#header').load('../source/header.html');
+    $('#header').load('header.html');
 });
 
 $(function(){
-    $('#footer').load('../source/footer.html');
+    $('#footer').load('footer.html');
 });
