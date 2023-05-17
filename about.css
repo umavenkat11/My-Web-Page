@@ -29,7 +29,7 @@ body {
     margin-inline: auto;
 }
 .main {
-    background-image: url('../source/christin-hume-Hcfwew744z4-unsplash.jpg');
+    background-image: url('./source/christin-hume-Hcfwew744z4-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
