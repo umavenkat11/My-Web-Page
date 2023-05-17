@@ -56,7 +56,7 @@ button:focus-visible {
    gap: 1rem;
 }
 .main {
-    background-image: url('../source/pexels-scott-webb-305821.jpg');
+    background-image: url('./source/pexels-scott-webb-305821.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
