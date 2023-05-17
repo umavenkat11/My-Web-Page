@@ -62,7 +62,7 @@ button:focus-visible {
 }
 .site-main {
     height: 80vh;
-    background-image:url("../source/pexels-tranmautritam-69432.jpg");
+    background-image:url("./source/pexels-tranmautritam-69432.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
